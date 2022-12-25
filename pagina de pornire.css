@@ -2,7 +2,9 @@ body {
 
   background: url("cells.jpg");
   background-repeat: no-repeat;
-  background-size: 1280px 620px;
+  background-size: absolute;
+  width: auto;
+  height: auto;
 
  
   }

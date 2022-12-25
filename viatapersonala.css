@@ -124,11 +124,11 @@ body {
 #scroll-container {
   /* border: 3px solid rgb(50, 50, 50);
   border-radius: 5px; */
-  height: 350px;
-  width: 450px;
+  height: fit-content;
+  width: fit-content;
   overflow: hidden;
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 12%;
 }
 
