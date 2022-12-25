@@ -2,6 +2,17 @@ body {
   background-color: rgb(50, 50, 50); 
 }
 
+
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+
   /* Style The Dropdown Button */
  .dropbtn {
     background-color: #555555;
