@@ -1,40 +1,12 @@
-body {
-  background-color: rgb(50, 50, 50); 
+body
+{
+ background-image: linear-gradient(to right, rgb(140, 140, 140) , rgb(30, 30, 30));
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-     }
-    @media only screen and (min-width: 600px) {
-   /* For tablets: */
- .col-m-1 {width: 8.33%;}
- .col-m-2 {width: 16.66%;}
- .col-m-3 {width: 25%;}
- .col-m-4 {width: 33.33%;}
- .col-m-5 {width: 41.66%;}
- .col-m-6 {width: 50%;}
- .col-m-7 {width: 58.33%;}
-.col-m-8 {width: 66.66%;}
-.col-m-9 {width: 75%;}
-.col-m-10 {width: 83.33%;}
-.col-m-11 {width: 91.66%;}
-.col-m-12 {width: 100%;}
- }
-  @media only screen and (min-width: 768px) {
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+h1 {
+  color: rgb(206, 174, 130);
+  text-align: center;
+  font-size: 50px;
  }
 
   /* Style The Dropdown Button */
@@ -84,57 +56,6 @@ body {
     background-color: #000000;
   }
 
-
-  #scroll-container {
-    /* border: 3px solid rgb(50, 50, 50);
-  border-radius: 5px; */
-    height: fit-content;
-    width: fit-content;
-    overflow: hidden;
-    position: absolute;
-    top: 45%;
-    left: 60%;
-  }
-  
-  #scroll-text {
-    height: 100%;
-    font-size: large;
-    text-align: relative;
-    color: #aeaeae;
-    /* animation properties */
-    -moz-transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-    
-    -moz-animation: my-animation 10s linear infinite;
-    -webkit-animation: my-animation 10s linear infinite;
-    animation: my-animation 15s linear infinite;
-  }
-  
-  /* for Firefox */
-  @-moz-keyframes my-animation {
-    from { -moz-transform: translateY(100%); }
-    to { -moz-transform: translateY(-100%); }
-  }
-  
-  /* for Chrome */
-  @-webkit-keyframes my-animation {
-    from { -webkit-transform: translateY(100%); }
-    to { -webkit-transform: translateY(-100%); }
-  }
-  
-  @keyframes my-animation {
-    from {
-      -moz-transform: translateY(100%);
-      -webkit-transform: translateY(100%);
-      transform: translateY(100%);
-    }
-    to {
-      -moz-transform: translateY(-100%);
-      -webkit-transform: translateY(-100%);
-      transform: translateY(-100%);
-    }
-  }
   
   
 
