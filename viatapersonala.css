@@ -7,13 +7,18 @@ h1 {
   color: rgb(206, 174, 130);
   font-size: 50px;
   text-align: center;
-  margin-left: 30%;
  }
+
+h2{ 
+  color: rgb(206, 174, 130);
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
 img
 {
  position: relative;
- float: right;
- margin-right: 10%;
  
 }
 
@@ -63,23 +68,6 @@ img
 .dropdown:hover .dropbtn {
   background-color: #000000;
 }
-
-.leftcolumn {
-  width: 70%;
-  padding: auto;
-}
-
-.rightcolumn {
-  width: 100%;
-}
-
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-}
-
 
 
 
